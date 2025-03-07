@@ -31,7 +31,7 @@ form {
     padding: 5px;
     border: 2px solid #000;
     border-radius: 20px;
-    background-color: #ff6600;
+    background-color: #ffffff;
     margin: 15px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -48,7 +48,7 @@ form input {
     flex: 1;
     padding: 10px;
     font-size: 16px;
-    background: #ff6600;
+    background: #ffffff;
 }
 
 #grid-container {
