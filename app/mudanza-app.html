@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudanza</title>
+    <link rel="stylesheet" href="/styles/mudanza.css">
+    <script src="/scripts/mudanza.js"></script>
+</head>
+<body>
+    <header>
+        <img id="img_header" src="/images/Imagotipo-MovingPro.png" alt="">    
+    </header>
+    <div>
+        <h3>Solicitar mudanza</h3>
+        <form action="" id="form_mudanza">
+            <div id="form_mudanza_container">
+                <div id="direcciones">
+                    <div id="direcciones_container">
+                        <label for="">Direccion de origen</label>
+                        <input type="text" id="direccion_origen">
+                        <img src="https://www.google.com/maps/about/images/mymaps/mymaps-desktop-16x9.png" alt="">
+                    </div>
+                    <div id="direcciones_container">
+                        <label for="">Direccion de destino</label>
+                        <input type="text" id="direccion_destino">
+                        <img src="https://www.google.com/maps/about/images/mymaps/mymaps-desktop-16x9.png" alt="">
+                    </div>
+                </div>
+                <div id="form_mudanza_info">
+                    <label for="">Fecha estimada</label>
+                    <input type="date" id="fecha">
+                    <label for="">Tipo de mudanza</label>
+                    <input type="text" id="tipo_mudanza">
+                    <label for="">Inventario de Objetos</label>
+                    <input type="text" id="inventario_objetos">
+                    <label for="">Peso del envio</label>
+                    <input type="number" id="peso_envio">
+                    <label for="">Servicios adicionales</label>
+                    <input type="text" id="servicios_adicionales">
+                    <button>Cotizar y confirmar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <nav>
+        <img onclick="window.location.href='/pages/menu.html'" src="/images/MP-11.png" alt="">
+        <img src="/images/MP-10.png" alt="">
+        <img src="/images/MP-12.png" alt="">
+        <img src="/images/wi-02-09.png" alt="">
+        <img src="/images/wi-02-08.png" alt="">
+    </nav>
+</body>
+</html>
