@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         localStorage.setItem('formularioDatos', JSON.stringify(datosFormulario));
 
-        alert('Información guardada correctamente en Local Storage');
+        alert('Información guardada correctamente');
 
         this.reset();
     });
