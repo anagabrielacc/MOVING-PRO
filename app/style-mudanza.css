@@ -79,7 +79,7 @@ h3 {
     font-weight: bold;
 }
 
-#form_mudanza_info input {
+#form_mudanza_info input , #form_mudanza_info select {
     padding: 10px;
     border: none;
     background-color: white;
@@ -89,7 +89,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
-#direccion_origen:focus, #direccion_destino:focus, #fecha_mudanza:focus, #fecha:focus, #tipo_mudanza:focus, #inventario_objetos:focus, #peso_envio:focus, #servicios_adicionales:focus {
+#direccion_origen:focus, #direccion_destino:focus, #fecha_mudanza:focus, #fecha:focus, #tipoMudanza:focus, #inventario_objetos:focus, #peso_envio:focus, #servicios_adicionales:focus {
     border: 2px solid #ff7300;
     outline: none;
 }

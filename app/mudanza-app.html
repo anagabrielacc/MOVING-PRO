@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mudanza</title>
     <link rel="stylesheet" href="style-mudanza.css">
-    <script src="app/mudanza.js"></script>
+    <script src="/app/mudanza.js"></script>
 </head>
 <body>
     <header>
@@ -31,7 +31,14 @@
                     <label for="">Fecha estimada</label>
                     <input type="date" id="fecha">
                     <label for="">Tipo de mudanza</label>
-                    <input type="text" id="tipo_mudanza">
+                    <select id="tipoMundanza">
+                        <option>Gestión de aduanas</option>
+                        <option >Mudanzas Locales</option>
+                        <option>Mudanzas Internacionales</option>
+                        <option>Almacenaje</option>
+                        <option>Embalaje</option>
+                        <option>Montaje de muebles</option>
+                    </select>
                     <label for="">Inventario de Objetos</label>
                     <input type="text" id="inventario_objetos">
                     <label for="">Peso del envio</label>
