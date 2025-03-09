@@ -59,48 +59,29 @@ button {
     background-color: #e0e0e0;
 }
 
-@media (min-width: 768px) {
-    body::before {
-      content: "Este sitio solo está disponible para móviles 📱";
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: white;
-      font-size: 24px;
-      font-weight: bold;
-      color: #cc5500;
-      z-index: 9999;
-      text-align: center;
-    }
+.overlay {
+    display: none; /* Oculto en móviles */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
 }
-    body * {
-      display: none !important; /* Oculta el contenido en pantallas grandes */
-    }
 
-    @media (min-width: 768px) {
-    body::before {
-      content: "Este sitio solo está disponible para móviles 📱";
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: white;
-      font-size: 24px;
-      font-weight: bold;
-      color: #cc5500;
-      z-index: 9999;
-      text-align: center;
+/* Bloquea en pantallas grandes */
+@media (min-width: 801px) {
+    .overlay {
+        display: flex; /* Se muestra solo en pantallas grandes */
+    }
+    .container {
+        display: none; /* Oculta el contenido principal */
     }
 }
-    body * {
-      display: none !important; /* Oculta el contenido en pantallas grandes */
-    }
