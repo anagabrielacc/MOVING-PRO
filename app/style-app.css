@@ -58,3 +58,49 @@ button {
 .btn-white:hover {
     background-color: #e0e0e0;
 }
+
+@media (min-width: 768px) {
+    body::before {
+      content: "Este sitio solo está disponible para móviles 📱";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: white;
+      font-size: 24px;
+      font-weight: bold;
+      color: #cc5500;
+      z-index: 9999;
+      text-align: center;
+    }
+}
+    body * {
+      display: none !important; /* Oculta el contenido en pantallas grandes */
+    }
+
+    @media (min-width: 768px) {
+    body::before {
+      content: "Este sitio solo está disponible para móviles 📱";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: white;
+      font-size: 24px;
+      font-weight: bold;
+      color: #cc5500;
+      z-index: 9999;
+      text-align: center;
+    }
+}
+    body * {
+      display: none !important; /* Oculta el contenido en pantallas grandes */
+    }
